@@ -11,7 +11,7 @@ document.getElementById("displayMenu").innerHTML = htmldata;
 function addItem(){
 var htmldata = "";
 var item=document.getElementById("addItem").value;
-var imgTags = '<img src="[https://i.postimg.cc/YjPPTVDF/pizzaImg.png" id="im1">';
+var imgTags = '<img src="https://i.postimg.cc/YjPPTVDF/pizzaImg.png" id="im1">';
 menuListArray.sort();
 for (var contador = 0; contador<menuListArray.length; contador++){
     htmldata = htmldata + imgTags + menuListArray[contador]+"<br>";
